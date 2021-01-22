@@ -135,53 +135,7 @@ We develop following security best practices and frameworks (OWASP Top 10, SANS 
 - We use Dynamic Application Security Testing (DAST) to scan our applications
 - We rely on yearly third-party CREST accredited security experts to perform penetration tests of our applications.
 
-## Responsible disclosure
 
-<!--- __Recommended for:__ >Series A/Series B startups. --->
-
-<!--- __Explanation:__ Use this section if you welcome responsible disclosure (you should). It describes your bug bounty policy and coverage. A high proportion of reported issues aren’t relevant, so be sure to have internal security knowledge to triage and respond to reports quickly. It is a best practice to reward security researchers (within the range of possibility for you). --->
-
-<!--- __Customization:__ Low customizations. Adapt the coverage and exclusions, and add the proper contact email or [keybase](https://keybase.io/). Using a hosted public bug bounty program on HackerOne or BugCrowd? Just replace the content of this section with a link to your profile. --->
-
-We encourage everyone that practices responsible disclosure and comply with our policies and terms of service to participate in our bug bounty program.
-Please avoid automated testing and only perform security testing with your own data. Please do not disclose any information regarding the vulnerabilities until we fix them. Rewards are done at our discretion depending on the criticality of the vulnerability reported.
-
-You can report vulnerabilities by contacting [security@DOMAIN](mailto:security@DOMAIN). Please include a proof of concept. We will respond as quickly as possible to your submission and won’t take legal actions if you follow the rules.
-
-**Coverage**
-- *.DOMAIN
-
-**Exclusions**
-- blog.DOMAIN
-- docs.DOMAIN
-- status.DOMAIN
-- support.DOMAIN
-
-**Accepted vulnerabilities are the following:**
-- Cross-Site Scripting (XSS)
-- Open redirect
-- Cross-site Request Forgery (CSRF)
-- Command/File/URL inclusion
-- Authentication issues
-- Code execution
-- Code or database injections
-
-**This bug bounty program does NOT include:**
-- Logout CSRF
-- Account/email enumerations
-- Denial of Service (DoS)
-- Attacks that could harm the reliability/integrity of our business
-- Spam attacks
-- Clickjacking on pages without authentication and/or sensitive state changes
-- Mixed content warnings
-- Lack of DNSSEC
-- Content spoofing / text injection
-- Timing attacks
-- Social engineering
-- Phishing
-- Insecure cookies for non-sensitive cookies or 3rd party cookies
-- Vulnerabilities requiring exceedingly unlikely user interaction
-- Exploits that require physical access to a user's machine
 
 ## User protection
 
@@ -202,7 +156,6 @@ We protect our users against data breaches by monitoring and blocking brute forc
 **Single sign-on**
 
 Single sign-on (SSO) is offered for our enterprise customers.
-Single sign-on (SSO) is available using your Google account.
 
 **Role-based access control**
 
@@ -215,41 +168,25 @@ Role-based access control (RBAC) is offered on all our accounts and allows our u
 
 <!--- __Customization:__ Very customizable. Choose the elements you’re compliant to. Do not hesitate to link to other pages or resources that detail more your compliance.  --->
 
-**HIPAA**
 
-- Our company is compliant with the Health Insurance Portability and Accountability Act of 1996 (HIPAA). We protect the privacy and security of your protected health information (PHI) in accordance with the very strict requirements of [HIPAA](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html),
-- Our company offers HIPAA BAA agreements to enterprise companies that need to comply with HIPAA regulations.
 
 **SOC2**
 
-Our company is [SOC 2 Type [1 | 2]](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) certified, which means that an independent auditor has evaluated our product, infrastructure, and policies, and certifies that we meet or exceed specific levels of controls and processes for the security of user data.
+Our hosting company AWS is SOC 2 Type  2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) certified, which means that an independent auditor has evaluated our product, infrastructure, and policies, and certifies that we meet or exceed specific levels of controls and processes for the security of user data.
 
 **EU-U.S. and Swiss-U.S. Privacy Shield**
 
 Our company conforms with the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks for regulating data privacy between the European Union and the United States.
 
-**PCI Compliance**
-
-We process and store your payment information in accordance with the Payment Card Industry Data Security Standards ([PCI DSS](https://www.pcisecuritystandards.org/)). We have been audited by an independent PCI Qualified Security Assessor (QSA) and are certified as a PCI Service Provider.
 
 **ISO 27001**
 
-Our company is [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001) certified. This standard provides a framework for establishing, and maintaining an information security management system (ISMS) to secure sensitive information through a risk management process that combines IT systems, people and processes.
+Our company hosting company AWS is [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001) certified. This standard provides a framework for establishing, and maintaining an information security management system (ISMS) to secure sensitive information through a risk management process that combines IT systems, people and processes.
 
 **GDPR**
 
 We’re compliant to the General Data Protection Regulation (GDPR). The purpose of GDPR is to protect the private information of EU citizens and give them more control over their personal data. Contact us for more details on how we comply to GDPR.
 
-## Payment information
-
-<!--- __Recommended for:__ All companies accepting payments. --->
-
-<!--- __Explanation:__ Add this section to your overview to state your security practices regarding payment processing and storage. If you use a third-party to handle payments mention it and state that you are therefore not subject to PCI compliance. If you process payments yourself, keep the part on PCI compliance. --->
-
-<!--- __Customization:__ Delete the paragraph that isn’t relevant to your company. Choose or add your payment provider. --->
-
-- All payment instrument processing is safely outsourced to [Stripe | Braintree] which is certified as a PCI Level 1 Service Provider. We don’t collect any payment information and are therefore not subject to PCI obligations.
-- We safely process and store your payment information following the strict Payment Card Industry Data Security Standards (PCI DSS). We are certified as a PCI Service Provider.
 
 ## Employee access
 
@@ -261,3 +198,4 @@ We’re compliant to the General Data Protection Regulation (GDPR). The purpose 
 
 - Our strict internal procedure prevents any employee or administrator from gaining access to user data. Limited exceptions can be made for customer support.
 - All our employees sign a Non-Disclosure and Confidentiality Agreement when joining the company to protect our customers' sensitive information.
+- All employees are trained on data security and adherence to our security policy forms part of their employment contract.
